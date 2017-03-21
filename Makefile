@@ -16,7 +16,7 @@ main.o: main.cpp personne.h extpersonne.h
 
 extpersonne.o: extpersonne.cpp extpersonne.h personne.h
 
-support.o: personne.cpp personne.h
+personne.o: personne.cpp personne.h
 
 clean:
 	$(RM) $(OBJS)
